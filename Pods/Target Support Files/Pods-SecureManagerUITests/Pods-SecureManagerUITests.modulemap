@@ -1,0 +1,6 @@
+framework module Pods_SecureManagerUITests {
+  umbrella header "Pods-SecureManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

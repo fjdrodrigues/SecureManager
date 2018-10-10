@@ -16,6 +16,17 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.142737086914-0kv4gib6j4cetsmd597amqcbq9mlhop7</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -27,6 +38,12 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>gps</string>
+		<string>location-services</string>
+		<string>microphone</string>
+		<string>still-camera</string>
+		<string>video-camera</string>
+		<string>telephony</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
@@ -41,5 +58,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Program requires GPS to track Security Agents</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Program requires GPS to track Security Agents</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Program requires GPS to track Security Agents</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses your Microphone to record Audio</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses the camera to collect Evidence</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app uses the Media Library to Store Evidence and Audio Files</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app uses the Photo Library to make the Evidence Available</string>
 </dict>
 </plist>
